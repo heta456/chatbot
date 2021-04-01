@@ -1,0 +1,88 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "Flightbooking",
+         "patterns": ["I need to book a flight?"],
+         "responses": ["Which City you are going to?"],
+         "context": [""]
+        },
+        {"tag": "CityBoard",
+         "patterns": ["New Delhi" ],
+         "responses": ["Which city are you leaving from?"],
+         "context": [""]
+        },
+        {"tag": "CityDepart ",
+         "patterns": ["Banglore" ],
+         "responses": ["What is the travel date?"],
+         "context": [""]
+        },
+        {"tag": "Date",
+         "patterns": ["10 jan" ],
+         "responses": ["Thanks.Your flight details will be shared soon."],
+         "context": ["Flightbooking"]
+        },
+        {"tag": "HotelBooking",
+         "patterns": ["I need to book a Hotel?"],
+         "responses": ["Which city you are going to?"],
+         "context": [""]
+        },
+        {"tag": "cityname",
+         "patterns": ["Gujarat" ],
+         "responses": ["What is the travel date?"],
+         "context": [""]
+        },
+        {"tag": "Date1",
+         "patterns": ["11 jan"],
+         "responses": ["What is the travel duration?"],
+         "context": [""]
+        },
+        {"tag": "Travelduration",
+         "patterns": ["3 days" ],
+         "responses": ["Thanks.Your hotel details will be shared soon."],
+         "context": ["HotelBooking"]
+        },
+        {"tag": "Bookcab",
+         "patterns": ["I need to book a cab?"],
+         "responses": ["Which city you are going to?"],
+         "context": ["search_hospital_by_type"]
+        },
+        {"tag": "cityboard",
+         "patterns": ["Agra"],
+         "responses": ["Which city are you leaving from?"],
+         "context": [""]
+        },
+        {"tag": "citydepart",
+         "patterns": ["New Delhi"],
+         "responses": ["What is the travel date?"],
+         "context": [""]
+        },
+        {"tag": "date",
+         "patterns": ["10 jan"],
+         "responses": ["What is the travel duration?"],
+         "context": [""]
+        },
+        {"tag": "days",
+         "patterns": ["3 days"],
+         "responses": ["Thanks.Your hotel details will be shared soon."],
+         "context": ["Bookcab"]
+        }
+   ]
+}
